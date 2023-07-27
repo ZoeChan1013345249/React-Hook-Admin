@@ -18,31 +18,43 @@ const UseHooks = () => {
 			key: "1",
 			name: "胡彦斌",
 			age: 32,
+			gender: "male",
 			address: "西湖区湖底公园1号"
 		},
 		{
 			key: "2",
 			name: "胡彦祖",
 			age: 42,
+			gender: "male",
 			address: "西湖区湖底公园1号"
 		},
 		{
 			key: "3",
 			name: "刘彦祖",
 			age: 18,
+			gender: "male",
 			address: "西湖区湖底公园1号"
 		},
 		{
 			key: "4",
 			name: "刘彦祖",
 			age: 18,
+			gender: "male",
 			address: "翻斗大街翻斗花园二号楼1001室"
 		},
 		{
 			key: "5",
 			name: "刘彦祖",
 			age: 18,
+			gender: "male",
 			address: "翻斗大街翻斗花园二号楼1001室"
+		},
+		{
+			key: "6",
+			name: "刘彦昌",
+			age: 28,
+			gender: "male",
+			address: "华山下"
 		}
 	];
 
@@ -57,6 +69,12 @@ const UseHooks = () => {
 			title: "年龄",
 			dataIndex: "age",
 			key: "age",
+			align: "center"
+		},
+		{
+			title: "性别",
+			dataIndex: "gender",
+			key: "gender",
 			align: "center"
 		},
 		{
